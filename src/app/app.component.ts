@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'lms';
+  title = 'portal';
+  name = 'AlahR0077';
+  testVar = 'Testing 2 way data binding';
+  save() {
+    alert('You Clicked')
+  }
 }
